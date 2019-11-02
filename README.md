@@ -1,4 +1,4 @@
-COP4610-Project-2
+COP4610-Project-2 <br/>
 Diego Gutierrez, Samuel Parmer & Christian Gazmuri
 Instructions:
 Part 1: 
