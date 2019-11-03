@@ -35,6 +35,8 @@ typedef struct Elevator {
 	int totalPassengers;
 	int currentFloor;
 	int destinationFloor;
+	int maxWeight;		// added limitations for weight and amount of passengers within Elevator
+	int maxPassengers;
 	char *status;
 } Elevator;
 
@@ -42,10 +44,14 @@ bool elevatorStarted = false;
 
 void initElevator(Elevator e){
 //e->list = NULL; HOW DO I INIT THIS LIST?
+//maybe e.list = LIST_HEAD_INIT(e.list) for static call of list head
+// or e.list = INIT_LIST_HEAD(e.list) for dynamic call of list head
 e.status = "ONLINE";
 e.totalWeight = 0;
 e.totalPassengers = 0;
 e.currentFloor = 1;
+e.maxWeight = 15;
+e.maxPassenger = 10; 
 }
 
 
@@ -136,7 +142,7 @@ int eventHandler(Event *ev){
 			return 0;
 }
 
-//ev->initailFloor
+//ev->initialFloor
 
 
 
