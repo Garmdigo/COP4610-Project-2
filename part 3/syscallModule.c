@@ -35,8 +35,6 @@ typedef struct Elevator {
 	int totalPassengers;
 	int currentFloor;
 	int destinationFloor;
-	int maxWeight;		// added limitations for weight and amount of passengers within Elevator
-	int maxPassengers;
 	char *status;
 } Elevator;
 
@@ -50,8 +48,6 @@ e.status = "ONLINE";
 e.totalWeight = 0;
 e.totalPassengers = 0;
 e.currentFloor = 1;
-e.maxWeight = 15;
-e.maxPassenger = 10; 
 }
 
 
@@ -128,6 +124,13 @@ int eventHandler(Event *ev){
 
  
 		case ELEVATOR:
+			int maxWeight = 15;
+			int maxPassengers = 10;
+			
+			// if(e.totalWeight+(p->weight) > maxWeight){
+			//	begin moving towards passenger destinations }
+			// else if(e.totalPassengers+(p->passengerCount) > maxPassengers){
+			// 	begin moving towards passenger destinations }
 
 			break;
 		case PROC:
