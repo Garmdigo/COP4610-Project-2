@@ -8,7 +8,7 @@ Part 2: To compile, type make in the part 2 folder. <br/>
 Type sudo insmod my_time.ko (to install the module), dmesg | tail, cat /proc/mytimed ,  sudo rmmod mytime(to remove the module) and  dmesg | tail. Before removing, use cat /proc/timed and then sleep to see the time that has elapse. <br/>
 Part 3:<br/>
 Division of labor:<br/>
-Diego: Completed part 1 and collaborate  on part 2.<br/>
+Diego: Completed part 1 and collaborate  on part 2 and documentation.<br/>
 Samuel:Collaborated on part 3 such as doing the system calls.<br/>
 Christian :  <br/>
 Known bugs: <br/>
