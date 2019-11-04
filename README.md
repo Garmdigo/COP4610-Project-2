@@ -10,5 +10,11 @@ Part 3:<br/>
 Division of labor:<br/>
 Diego: part 1, my_xtime, documentation.<br/>
 Samuel:system calls, elevator module, scheduler  <br/>
-Christian :  <br/>
-Known bugs: <br/>
+Christian : part 3 <br/>
+Known bugs:
+
+Unfinished:
+
+The elevator picks people up but we haven't fully implemented drop-off logic.
+Proc system works but is not being used. All diagnostic prints go to kernel log as is.
+<br/>
