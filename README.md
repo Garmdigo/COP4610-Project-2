@@ -6,11 +6,11 @@ To compile both Syscalls.c and empty.c, type "make" in the part 1 folder. Syscal
 Once compiled use, strace -o log1.txt Syscall.c and strace -o log2.txt empty.c to view the system calls info. <br/>
 Part 2: To compile, type "make" in the part 2 folder. <br/>
 Type "sudo insmod my_xtime.ko" to install the module, dmesg | tail, cat /proc/mytimed ,  sudo rmmod mytime(to remove the module) and  dmesg | tail. Before removing, use cat /proc/timed and then sleep to see the time that has elapse. <br/>
-Part 3: issue "sudo make" <br/>
+Part 3: issue "sudo make" in syscallModule directory. Test with consumer and producer. <br/>
 Division of labor:<br/>
 Diego: part 1, my_xtime, documentation.<br/>
 Samuel:system calls, elevator module, scheduler  <br/>
-Christian : part 3 <br/>
+Christian : constributed on part 3 <br/>
 Known bugs:
 
 Unfinished:
