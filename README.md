@@ -14,6 +14,6 @@ Christian : contributed on parts 2 and 3, testing <br/>
 
 Unfinished portionis and bugs, other notes:
 
-Total number of serviced requests per floor sometimes seems inconsistant after issuing several requests.
+proc does not accurately show what is going on when the elevator moves, passengers picked up etc. correct info is available by using dmesg. 
 Weight system may not be correct.
 <br/>
