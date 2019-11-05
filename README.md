@@ -14,8 +14,6 @@ Christian : contributed on parts 2 and 3, testing <br/>
 
 Unfinished portionis and bugs, other notes:
 
-number of serviced requests per floor sometimes seems inconsistant after issuing several requests.
-
-Proc system works but is not being used. All diagnostic prints go to kernel log as is.
-Weight system is not implemeted.
+Total number of serviced requests per floor sometimes seems inconsistant after issuing several requests.
+Weight system may not be correct.
 <br/>
